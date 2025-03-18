@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,19 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom color palette based on logo
+				podipoint: {
+					green: '#0A5638',
+					cream: '#F5F2EA',
+					orange: '#E84C1E',
+					lightorange: '#F0E2B3',
+					lightgreen: '#8BC140',
 				}
+			},
+			fontFamily: {
+				'sans': ['Poppins', 'sans-serif'],
+				'heading': ['Montserrat', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
