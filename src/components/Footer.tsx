@@ -47,7 +47,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center">
           <img
-            src="/lovable-uploads/og-image.png"
+            src="public/lovable-uploads/7aa2f8d8-b1ff-4e65-a91c-95aadea12ffa.png"
             alt="Podi Point Logo"
             className="h-16 w-auto mb-6"
           />
