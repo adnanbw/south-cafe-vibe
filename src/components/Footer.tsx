@@ -43,7 +43,7 @@
 // export default Footer;
 const Footer = () => {
   return (
-    <footer className="bg-brand-green py-12 text-white">
+    <footer className="bg-[#0A5638] py-12 text-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center">
           <img
