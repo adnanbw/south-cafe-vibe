@@ -18,7 +18,7 @@ const About = () => {
           <div className="bg-white rounded-3xl shadow-lg p-8 order-2 md:order-1">
             <h3 className="text-2xl font-bold mb-4 text-podipoint-green">Our Story</h3>
             <p className="text-gray-700 mb-4">
-              Podi Point was born from a passion to bring authentic South Indian cuisine to Ujjain. 
+              Podi Point was born from a passion to bring authentic South Indian cuisine. 
               Our journey began with the simple idea that great food is about more than just taste—it's 
               about tradition, culture, and community.
             </p>
