@@ -24,7 +24,7 @@ const Contact = () => {
                 <MapPin className="w-6 h-6 text-podipoint-orange mt-1" />
                 <div>
                   <h4 className="font-bold text-podipoint-green">Address</h4>
-                  <p className="text-gray-700">123 Mahakal Road, Near Ujjain Temple, Ujjain, Madhya Pradesh 456006</p>
+                  <p className="text-gray-700">123 Road, Nanakheda, Ujjain, Madhya Pradesh 456006</p>
                 </div>
               </div>
               
@@ -32,7 +32,7 @@ const Contact = () => {
                 <Clock className="w-6 h-6 text-podipoint-orange mt-1" />
                 <div>
                   <h4 className="font-bold text-podipoint-green">Hours</h4>
-                  <p className="text-gray-700">Monday - Sunday: 7:00 AM - 10:00 PM</p>
+                  <p className="text-gray-700">Monday - Sunday: 9:00 AM - 11:00 PM</p>
                 </div>
               </div>
               
@@ -40,7 +40,7 @@ const Contact = () => {
                 <Phone className="w-6 h-6 text-podipoint-orange mt-1" />
                 <div>
                   <h4 className="font-bold text-podipoint-green">Phone</h4>
-                  <p className="text-gray-700">+91 98765 43210</p>
+                  <p className="text-gray-700">+91 91114 15554</p>
                 </div>
               </div>
               
