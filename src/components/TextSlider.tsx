@@ -4,7 +4,12 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
 } from "@/components/ui/carousel";
+import { useEffect } from "react";
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 const TextSlider = () => {
   const texts = [
@@ -12,27 +17,40 @@ const TextSlider = () => {
     "ನಿಜವಾದ ದಕ್ಷಿಣ ಭಾರತೀಯ"
   ];
 
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { 
+      loop: true,
+      align: "center",
+      duration: 40,
+    },
+    [Autoplay({ delay: 3000, stopOnInteraction: false })]
+  );
+
   return (
-    <section className="py-12 bg-podipoint-cream">
-      <Carousel
+    <section className="py-6 bg-podipoint-green">
+      <Carousel 
         opts={{
           align: "center",
           loop: true,
-          duration: 40,
         }}
-        className="w-full max-w-4xl mx-auto"
+        className="w-full max-w-4xl mx-auto relative"
       >
-        <CarouselContent>
+        <CarouselContent ref={emblaRef}>
           {texts.map((text, index) => (
             <CarouselItem key={index} className="flex items-center justify-center">
               <div className="text-center">
-                <h2 className="text-4xl md:text-6xl font-bold text-podipoint-green py-8" style={{ fontFamily: 'Noto Sans Kannada, sans-serif' }}>
+                <h2 
+                  className="text-3xl md:text-5xl font-bold text-white py-4" 
+                  style={{ fontFamily: 'Noto Sans Kannada, sans-serif' }}
+                >
                   {text}
                 </h2>
               </div>
             </CarouselItem>
           ))}
         </CarouselContent>
+        <CarouselPrevious className="text-white border-white hover:bg-white/20" />
+        <CarouselNext className="text-white border-white hover:bg-white/20" />
       </Carousel>
     </section>
   );
