@@ -43,7 +43,7 @@ const Hero = () => {
            
           </div>
         </div>
-        {/* <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center z-10">
+        <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center z-10">
           <div className="relative">
             <div className="absolute inset-0 bg-podipoint-green/10 rounded-full blur-3xl transform scale-75 opacity-50"></div>
             <div className="relative bg-white p-2 rounded-full overflow-hidden shadow-xl">
@@ -54,33 +54,11 @@ const Hero = () => {
               />
             </div>
           </div>
-        </div> */}
-      </div>
-      <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center z-10">
-      <div className="relative">
-        {/* Background glow */}
-        <div className="absolute inset-0 bg-podipoint-green/10 rounded-full blur-3xl transform scale-75 opacity-50"></div>
-        
-        {/* Image container */}
-        <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-podipoint-green">
-          <img 
-            src="/lovable-uploads/7aa2f8d8-b1ff-4e65-a91c-95aadea12ffa.png" // Add a high-quality image related to dosa/idli/sambhar/thali
-            alt="South Indian Thali" 
-            className="w-80 h-80 md:w-[22rem] md:h-[22rem] object-cover"
-          />
-
-          {/* Kannada text overlay */}
-          <div className="absolute bottom-0 w-full bg-black/50 text-white text-center py-2 text-lg font-semibold tracking-wide">
-            ಪೌಷ್ಟಿಕ ದಕ್ಷಿಣ ಭಾರತೀಯ ಆಹಾರ <br />
-            <span className="text-sm font-normal">Authentic South Indian Taste</span>
-          </div>
         </div>
       </div>
-    </div>
-
-      
-     {/* <div className="absolute top-1/3 right-0 w-1/3 h-2/3 bg-podipoint-lightgreen/10 rounded-full blur-3xl -z-10 transform translate-x-1/2"></div>
-      <div className="absolute bottom-1/4 left-0 w-1/3 h-1/3 bg-podipoint-orange/10 rounded-full blur-3xl -z-10 transform -translate-x-1/2"></div> */}
+     
+     <div className="absolute top-1/3 right-0 w-1/3 h-2/3 bg-podipoint-lightgreen/10 rounded-full blur-3xl -z-10 transform translate-x-1/2"></div>
+      <div className="absolute bottom-1/4 left-0 w-1/3 h-1/3 bg-podipoint-orange/10 rounded-full blur-3xl -z-10 transform -translate-x-1/2"></div>
     </section>
   );
 };
