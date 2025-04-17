@@ -10,7 +10,6 @@ const Hero = () => {
             <div className="dot orange"></div>
             <div className="dot cream"></div>
             <div className="dot green"></div>
-            
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-podipoint-green leading-tight">
             Experience True <br />
@@ -40,43 +39,46 @@ const Hero = () => {
             <div className="dot orange"></div>
             <div className="dot cream"></div>
             <div className="dot green"></div>
-           
           </div>
         </div>
+        
         <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center z-10">
-          <div className="relative">
-            <div className="absolute inset-0 bg-podipoint-orange/10 rounded-full blur-3xl transform scale-75 opacity-50"></div>
-            <div className="relative bg-white/80 backdrop-blur-sm p-4 rounded-2xl overflow-hidden shadow-xl">
-              <div className="food-collage relative">
-                {/* Main food image */}
-                <img 
-                  src="https://images.unsplash.com/photo-1610192244261-3f33de3f72e1?auto=format&fit=crop&w=600&q=80" 
-                  alt="South Indian Dosa" 
-                  className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-xl"
-                />
-                
-                {/* Kannada text overlay */}
-                <div className="absolute top-4 right-4 bg-podipoint-green/80 text-white px-4 py-2 rounded-lg rotate-6 shadow-lg">
-                  <p className="text-lg font-semibold">ದಕ್ಷಿಣ ಭಾರತೀಯ</p>
-                  <p className="text-xs">South Indian Delight</p>
-                </div>
-                
-                {/* Small decorative images */}
-                <img 
-                  src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=200&q=80" 
-                  alt="Idli Sambar" 
-                  className="absolute -bottom-2 -left-2 w-20 h-20 object-cover rounded-full border-2 border-white shadow-md"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=200&q=80" 
-                  alt="Traditional Banana Leaf" 
-                  className="absolute -top-2 -left-2 w-16 h-16 object-cover rounded-full border-2 border-white shadow-md"
-                />
-                <img 
-                  src="https://images.unsplash.com/photo-1567337710282-00832b415979?auto=format&fit=crop&w=200&q=80" 
-                  alt="South Indian Spices" 
-                  className="absolute -top-2 -right-2 w-24 h-24 object-cover rounded-full border-2 border-white shadow-md"
-                />
+          <div className="food-collage-container relative w-full max-w-lg">
+            {/* Main dish - large masala dosa */}
+            <div className="relative bg-white p-3 rounded-2xl shadow-xl">
+              <img 
+                src="public/lovable-uploads/5eefefb3-e505-4927-83c7-f46d0a6bde3b.png" 
+                alt="South Indian Dosa" 
+                className="w-full h-auto rounded-xl object-cover"
+              />
+              
+              {/* Kannada text overlay */}
+              <div className="absolute top-6 right-6 bg-podipoint-green/90 text-white px-5 py-3 rounded-lg rotate-6 shadow-lg">
+                <p className="text-xl font-bold">ದಕ್ಷಿಣ ಭಾರತೀಯ</p>
+                <p className="text-sm">South Indian Delight</p>
+              </div>
+            </div>
+            
+            {/* Side dishes */}
+            <div className="absolute -bottom-8 -right-8 w-52 h-52">
+              <img 
+                src="public/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
+                alt="South Indian Idlis" 
+                className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
+              />
+            </div>
+            
+            <div className="absolute -top-6 -left-6 w-40 h-40">
+              <img 
+                src="public/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
+                alt="South Indian Dosa with Chutneys" 
+                className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
+              />
+            </div>
+            
+            <div className="absolute top-1/2 -right-10 transform -translate-y-1/2 w-36 h-36">
+              <div className="bg-podipoint-orange/90 w-full h-full rounded-full flex items-center justify-center p-3 shadow-lg">
+                <p className="text-white font-bold text-center text-lg">Authentic Taste</p>
               </div>
             </div>
           </div>

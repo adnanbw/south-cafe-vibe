@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Card, CardContent } from '@/components/ui/card';
 
 const About = () => {
   return (
@@ -14,8 +15,24 @@ const About = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="bg-white rounded-3xl shadow-lg p-8 order-2 md:order-1">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+          <div className="grid grid-cols-1 gap-6 h-full">
+            <Card className="overflow-hidden h-full">
+              <div className="relative h-full">
+                <img 
+                  src="public/lovable-uploads/9f79f80b-73a9-48ba-9099-0e21de279558.png" 
+                  alt="South Indian Vadai" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-6">
+                  <h3 className="text-2xl font-bold text-white mb-2">Authentic Recipes</h3>
+                  <p className="text-white/90">Traditional South Indian recipes prepared with care</p>
+                </div>
+              </div>
+            </Card>
+          </div>
+          
+          <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col justify-center h-full">
             <h3 className="text-2xl font-bold mb-4 text-podipoint-green">Our Story</h3>
             <p className="text-gray-700 mb-4">
               Podi Point was born from a passion to bring authentic South Indian cuisine. 
@@ -32,26 +49,46 @@ const About = () => {
               spice blends to create dishes that transport you straight to the vibrant streets of South India.
             </p>
           </div>
-          
-          <div className="order-1 md:order-2">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-podipoint-orange/20 rounded-2xl p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-4xl mb-2">🌱</span>
-                <h4 className="font-bold text-podipoint-green">Fresh Ingredients</h4>
+
+          <div className="md:col-span-2 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Card className="overflow-hidden">
+              <div className="relative h-60">
+                <img 
+                  src="public/lovable-uploads/bd9fa88e-756d-4b5d-91ce-a35fb7865968.png" 
+                  alt="South Indian Dishes" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
+                  <h4 className="text-xl font-bold text-white">Fresh Ingredients</h4>
+                </div>
               </div>
-              <div className="aspect-square bg-podipoint-lightgreen/20 rounded-2xl p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-4xl mb-2">👨‍🍳</span>
-                <h4 className="font-bold text-podipoint-green">Expert Chefs</h4>
+            </Card>
+            
+            <Card className="overflow-hidden">
+              <div className="relative h-60">
+                <img 
+                  src="public/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
+                  alt="South Indian Dosa" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
+                  <h4 className="text-xl font-bold text-white">Homestyle Cooking</h4>
+                </div>
               </div>
-              <div className="aspect-square bg-podipoint-lightorange/30 rounded-2xl p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-4xl mb-2">🌶️</span>
-                <h4 className="font-bold text-podipoint-green">Authentic Spices</h4>
+            </Card>
+            
+            <Card className="overflow-hidden">
+              <div className="relative h-60">
+                <img 
+                  src="public/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
+                  alt="South Indian Idlis" 
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-4">
+                  <h4 className="text-xl font-bold text-white">Traditional Flavors</h4>
+                </div>
               </div>
-              <div className="aspect-square bg-podipoint-green/20 rounded-2xl p-4 flex flex-col items-center justify-center text-center">
-                <span className="text-4xl mb-2">💖</span>
-                <h4 className="font-bold text-podipoint-green">Made with Love</h4>
-              </div>
-            </div>
+            </Card>
           </div>
         </div>
       </div>
