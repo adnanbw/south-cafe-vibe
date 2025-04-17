@@ -10,7 +10,7 @@ const Hero = () => {
             <div className="dot orange"></div>
             <div className="dot cream"></div>
             <div className="dot green"></div>
-            <span className="leaf-decoration mx-2">✿</span>
+            
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-podipoint-green leading-tight">
             Experience True <br />
@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="dot orange"></div>
             <div className="dot cream"></div>
             <div className="dot green"></div>
-            <span className="leaf-decoration mx-2">✿</span>
+           
           </div>
         </div>
         <div className="w-full md:w-1/2 mt-12 md:mt-0 flex justify-center items-center z-10">
