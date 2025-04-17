@@ -47,7 +47,7 @@ const Hero = () => {
             {/* Main dish - large masala dosa */}
             <div className="relative bg-white p-3 rounded-2xl shadow-xl">
               <img 
-                src="public/lovable-uploads/5eefefb3-e505-4927-83c7-f46d0a6bde3b.png" 
+                src="/lovable-uploads/5eefefb3-e505-4927-83c7-f46d0a6bde3b.png" 
                 alt="South Indian Dosa" 
                 className="w-full h-auto rounded-xl object-cover"
               />
@@ -62,7 +62,7 @@ const Hero = () => {
             {/* Side dishes */}
             <div className="absolute -bottom-8 -right-8 w-52 h-52">
               <img 
-                src="public/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
+                src="/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
                 alt="South Indian Idlis" 
                 className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
               />
@@ -70,7 +70,7 @@ const Hero = () => {
             
             <div className="absolute -top-6 -left-6 w-40 h-40">
               <img 
-                src="public/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
+                src="/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
                 alt="South Indian Dosa with Chutneys" 
                 className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg"
               />
