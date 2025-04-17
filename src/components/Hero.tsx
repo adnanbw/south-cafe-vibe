@@ -64,7 +64,7 @@ const Hero = () => {
         {/* Image container */}
         <div className="relative rounded-3xl overflow-hidden shadow-xl border-4 border-podipoint-green">
           <img 
-            src="/images/south-indian-thali.jpg" // Add a high-quality image related to dosa/idli/sambhar/thali
+            src="/lovable-uploads/7aa2f8d8-b1ff-4e65-a91c-95aadea12ffa.png" // Add a high-quality image related to dosa/idli/sambhar/thali
             alt="South Indian Thali" 
             className="w-80 h-80 md:w-[22rem] md:h-[22rem] object-cover"
           />
