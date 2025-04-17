@@ -20,7 +20,7 @@ const About = () => {
             <Card className="overflow-hidden h-full">
               <div className="relative h-full">
                 <img 
-                  src="public/lovable-uploads/9f79f80b-73a9-48ba-9099-0e21de279558.png" 
+                  src="/lovable-uploads/9f79f80b-73a9-48ba-9099-0e21de279558.png" 
                   alt="South Indian Vadai" 
                   className="w-full h-full object-cover"
                 />
@@ -54,7 +54,7 @@ const About = () => {
             <Card className="overflow-hidden">
               <div className="relative h-60">
                 <img 
-                  src="public/lovable-uploads/bd9fa88e-756d-4b5d-91ce-a35fb7865968.png" 
+                  src="/lovable-uploads/bd9fa88e-756d-4b5d-91ce-a35fb7865968.png" 
                   alt="South Indian Dishes" 
                   className="w-full h-full object-cover"
                 />
@@ -67,7 +67,7 @@ const About = () => {
             <Card className="overflow-hidden">
               <div className="relative h-60">
                 <img 
-                  src="public/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
+                  src="/lovable-uploads/f53e50b7-b824-465a-87e3-b1122964c97f.png" 
                   alt="South Indian Dosa" 
                   className="w-full h-full object-cover"
                 />
@@ -80,7 +80,7 @@ const About = () => {
             <Card className="overflow-hidden">
               <div className="relative h-60">
                 <img 
-                  src="public/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
+                  src="/lovable-uploads/16f32c43-f5c0-47bb-b417-cb2308d551f0.png" 
                   alt="South Indian Idlis" 
                   className="w-full h-full object-cover"
                 />

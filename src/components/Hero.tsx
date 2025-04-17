@@ -53,7 +53,7 @@ const Hero = () => {
               />
               
               {/* Kannada text overlay */}
-              <div className="absolute top-6 right-6 bg-podipoint-green/90 text-white px-5 py-3 rounded-lg rotate-6 shadow-lg">
+              <div className="absolute top-6 right-6 bg-podipoint-green/90 text-white px-5 py-3 rounded-lg rotate-3 shadow-lg">
                 <p className="text-xl font-bold">ದಕ್ಷಿಣ ಭಾರತೀಯ</p>
                 <p className="text-sm">South Indian Delight</p>
               </div>
