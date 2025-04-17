@@ -26,6 +26,7 @@ const Navbar = () => {
             alt="Podi Point Logo" 
             className="h-14 md:h-16"
           />
+          <span className="text-xl md:text-2xl font-bold text-podipoint-green">Podi Point</span>
         </div>
         
         {/* Desktop Menu */}
