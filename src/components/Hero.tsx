@@ -14,8 +14,8 @@ const Hero = () => {
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-podipoint-green leading-tight">
             Experience True <br />
-            <span className="text-podipoint-orange">South Indian</span> <br />
-            Flavors in Ujjain
+            <span className="text-podipoint-orange">South Indian Flavors</span> <br />
+            Now in Ujjain
           </h1>
           <p className="text-lg md:text-xl text-gray-700 max-w-lg">
             Podi Point brings authentic South Indian cuisine with a 
@@ -56,8 +56,9 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="absolute top-1/3 right-0 w-1/3 h-2/3 bg-podipoint-lightgreen/10 rounded-full blur-3xl -z-10 transform translate-x-1/2"></div>
-      <div className="absolute bottom-1/4 left-0 w-1/3 h-1/3 bg-podipoint-orange/10 rounded-full blur-3xl -z-10 transform -translate-x-1/2"></div>
+      
+     {/* <div className="absolute top-1/3 right-0 w-1/3 h-2/3 bg-podipoint-lightgreen/10 rounded-full blur-3xl -z-10 transform translate-x-1/2"></div>
+      <div className="absolute bottom-1/4 left-0 w-1/3 h-1/3 bg-podipoint-orange/10 rounded-full blur-3xl -z-10 transform -translate-x-1/2"></div> */}
     </section>
   );
 };
