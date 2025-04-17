@@ -20,7 +20,8 @@ const About = () => {
             <Card className="overflow-hidden h-full">
               <div className="relative h-full">
                 <img 
-                  src="/lovable-uploads/9f79f80b-73a9-48ba-9099-0e21de279558.png" 
+                  // src="/lovable-uploads/9f79f80b-73a9-48ba-9099-0e21de279558.png" 
+                  src="/lovable-uploads/5eefefb3-e505-4927-83c7-f46d0a6bde3b.png"
                   alt="South Indian Vadai" 
                   className="w-full h-full object-cover"
                 />
