@@ -12,7 +12,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-podipoint-cream">
       <Navbar />
-      <TextSlider />
       <Hero />
       <About />
       <TextSlider />
