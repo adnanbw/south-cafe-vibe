@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-podipoint-green leading-tight">
             Experience True <br />
-            <span className="text-podipoint-orange">South Indian Flavors</span> <br />
+            <span className="text-podipoint-orange">South Indian Flavours</span> <br />
             Now in Ujjain
           </h1>
           <p className="text-lg md:text-xl text-gray-700 max-w-lg">
