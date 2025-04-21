@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 const menuCategories = [
   { id: 'all', name: 'All' },
-  { id: 'dosas', name: 'Dosas' },
+  { id: 'dosa', name: 'Dosas' },
   { id: 'snacks', name: 'Snacks' },
   // { id: 'rice', name: 'Rice Varieties' },
   { id: 'beverages', name: 'Beverages' }
