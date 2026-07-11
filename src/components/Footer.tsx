@@ -55,8 +55,11 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-white/20 text-center">
+        <div className="mt-8 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
           <p>&copy; {currentYear} Podi Point. All rights reserved.</p>
+          <Link to="/privacy-policy" className="text-white/80 hover:text-podipoint-lightorange transition-colors text-sm">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
