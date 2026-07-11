@@ -20,13 +20,6 @@ const Contact = () => {
             <h3 className="text-2xl font-bold mb-6 text-podipoint-green">Contact Information</h3>
             
             <div className="space-y-6">
-              <div className="flex items-start space-x-4">
-                <MapPin className="w-6 h-6 text-podipoint-orange mt-1" />
-                <div>
-                  <h4 className="font-bold text-podipoint-green">Address</h4>
-                  <p className="text-gray-700">Podi Point, Nanakheda Circle, Ujjain 456010</p>
-                </div>
-              </div>
               
               <div className="flex items-start space-x-4">
                 <Clock className="w-6 h-6 text-podipoint-orange mt-1" />

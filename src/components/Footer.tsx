@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Footer = () => {
@@ -38,8 +39,6 @@ const Footer = () => {
           {/* Contact info */}
           <div className="text-center md:text-right">
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p className="mb-2">Podi Point, Nanakheda Circle</p>
-            <p className="mb-2">Ujjain 456010</p>
             <p className="mb-4">+91 91114 15554</p>
             
             <div className="flex justify-center md:justify-end space-x-4">
@@ -56,8 +55,11 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-white/20 text-center">
+        <div className="mt-8 pt-8 border-t border-white/20 flex flex-col md:flex-row justify-between items-center gap-4 text-center">
           <p>&copy; {currentYear} Podi Point. All rights reserved.</p>
+          <Link to="/privacy-policy" className="text-white/80 hover:text-podipoint-lightorange transition-colors text-sm">
+            Privacy Policy
+          </Link>
         </div>
       </div>
     </footer>
