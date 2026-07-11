@@ -38,8 +38,6 @@ const Footer = () => {
           {/* Contact info */}
           <div className="text-center md:text-right">
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
-            <p className="mb-2">Podi Point, Nanakheda Circle</p>
-            <p className="mb-2">Ujjain 456010</p>
             <p className="mb-4">+91 91114 15554</p>
             
             <div className="flex justify-center md:justify-end space-x-4">
